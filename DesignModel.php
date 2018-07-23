@@ -765,7 +765,7 @@ $cd->buy();
 
 echo "<br>";
 echo "<br>";
-echo " 13. 原型模式<br>";
+echo " 12. 原型模式<br>";
 echo "  原型设计模式创建对象的方式是复制和克隆初始对象或原型，这种方式比创建新实例更为有效<br>";
 
 class prototypeCD
@@ -804,7 +804,7 @@ foreach ( $purchase as $value ){
 }
 echo "<br>";
 echo "<br>";
-echo " 14. 代理模式<br>";
+echo " 13. 代理模式<br>";
 echo "  代理设计模式构建了透明置于两个不同对象之内的一个对象，从而能够裁取或代理这两个对象间的通信或访问 <br>";
 
 class ProxyCD
@@ -850,7 +850,7 @@ echo "<br>";
 echo "<br>";
 
 
-echo " 15. 单元素模式（单例）<br>";
+echo " 14. 单元素模式（单例）<br>";
 echo "  通过提供对自身共享实例的访问，单元素设计模式用于限制特定对象只能被创建一次。<br>";
 
 class InventoryConnection
@@ -908,7 +908,7 @@ foreach ($InventoryCD as $value)
 }
 echo "<br>";
 echo "<br>";
-echo " 16. 策略模式<br>";
+echo " 15. 策略模式<br>";
 echo "  策略设计模式帮助构建的对象不必自身包含逻辑，而是能够根据需要利用其他对象中的算法。<br>";
 $title = 'Never Again';
 $band = 'Waste of a Rib ';
@@ -961,7 +961,7 @@ $cd->setStrategyContext( new CDAsJSONStrategy());
 $cd->get();
 
 echo "<br>";
-echo " 17. 模板模式<br>";
+echo " 16. 模板模式<br>";
 echo "  模板设计模式创建了一个实施一组方法和功能的抽象对象，子类通常将这个对象作为模板用于自己的设计 。 <br>";
 
 abstract class SaleItemTemplate
@@ -1037,7 +1037,7 @@ $band_cd->setPriceAdjustments();
 echo '<br>';
 echo '<br>';
 
-echo " 18. 访问者模式<br>";
+echo " 17. 访问者模式<br>";
 echo "  访问者设计模式构造了包含某个算法的截然不同的对象，在父对象以标准方式使用这些对象时就会将该算法应用于父对象。<br>";
 
 class VisitCD
